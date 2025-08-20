@@ -1,0 +1,6 @@
+aula 04 
+como criar e colocar o ícone de favoristo no site
+nome do arquivo é favicon
+podemos achar ele no site https://favicon.io/ só colocar a imagen pra ícone 
+
+para adicionar no site, vai em head, dgita o comando link favicon, entre parênteses apague o nome que refere o "href" do link e coloque o nome do arquivo (para escolher aperte cotrol + espaço) imagem tem que estar na foto

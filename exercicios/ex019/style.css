@@ -1,0 +1,18 @@
+@charset "UTF8";
+
+
+body{
+    
+    background-color: #c47777;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', serif, monospace;
+    margin: auto;
+    width: 1000px;
+    
+}
+#principal{color:  #132333;}
+.basico{color: #193313;}
+.intermediario{color: #33132a;}
+
+
+}

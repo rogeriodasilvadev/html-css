@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo display: inline-table</title>
+  <style>
+    .tabela-inline {
+      display: inline-table;       /* Comportamento de tabela, mas inline */
+      border: 2px solid red;       /* Borda para visualização */
+      margin-right: 10px;          /* Espaço à direita */
+    }
+    .linha {
+      display: table-row;          /* Define uma linha */
+    }
+    .celula {
+      display: table-cell;         /* Define uma célula */
+      padding: 10px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="tabela-inline">
+    <div class="linha">
+      <div class="celula">tenis</div>
+      <div class="celula">botina</div>
+    </div>
+  </div>
+
+  <span>Texto ao lado da tabela (continua na mesma linha)</span>
+</body>
+</html>

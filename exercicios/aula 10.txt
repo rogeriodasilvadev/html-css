@@ -1,0 +1,9 @@
+aula 10
+
+TAG A (ancora, serve para add links de outros sites no seu site) porem essa TAG sobrepõe o meu site e para isso não acontecer usamos a
+TAG target="_blank" rel="external" (isso fara abrir uma nova aba)
+
+    <p>clique abaixo e confira onde comprar</p>
+    <p><a href="https://www.lojasrenner.com.br/c/masculino/-/N-1xeiyoy?s_icid=240606_HOME_STORIESPRINCIPAL_MASCULINO">clique aqui</a></p>
+    <p><a href="https://www.lojasrenner.com.br/c/masculino/-/N-1xeiyoy?s_icid=240606_HOME_STORIESPRINCIPAL_MASCULINO" target="_blank" rel="external">clique aqui sem sair do site</a></p>
+

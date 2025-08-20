@@ -1,0 +1,37 @@
+Aula 11
+IMAGENS FLEXSIVEIS 
+obs: tag inicial é <picture> tag segundaria <img> e a  terceira tag <source media type> deve ser colocado acima da img e quantas vezes for dependendo do numero de fotos/tamanhos
+
+<source media="(min-width: 650PX)" srcset="imagens\P.jpg" mudar para max
+
+650px refere-se ao tamanho da imagem
+srcset deve ser colocado o caminhp da imagem
+importante, a tag source lé de baixo para cima, então, fica invertido, 
+
+A ordem e lógica dos media:
+
+Quando você mistura min-width e max-width sem ordem lógica, pode causar conflito.
+
+Geralmente, no <picture>, você coloca do maior para o menor usando max-width ou do menor para o maior usando min-width, mas não misturados assim.
+
+
+<body>
+    <h1>Utilizando varias fotos</h1>
+    <p>fotos para direferente tamanhos de telas, para atender publicos tanto mobile tanto computer</p>
+    <picture>
+                <source media="(min-width:1450px)" srcset="G.png" type="image/png"> 
+                <source media="(min-width: 936px)" srcset="M.png" type="image/png">
+                <source media="(min-width: 499)" srcset="P.png" type="image/png">
+                <img src="P.png" alt="imagem">
+        </picture>
+    
+</body>
+
+
+ex de como inserir musica no site 
+
+  <h1>Escutando musica boa</h1>
+    <p>como inserir audio no seu site</p>
+    <audio src="midia/Pais E Filhos.mp3" controls autoplay></audio>
+
+controls serve para criar o layout e autoplay seve para fazer tocar 		

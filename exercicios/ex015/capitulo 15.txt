@@ -1,0 +1,19 @@
+capitulo 15
+Estilos externo (uma pagina dedicada)
+
+<link.css> link rel="stylesheet" href="style.css" essa é a melhor forma de fazer modificações nos sites e em todas as pags de uma vez
+
+OBS: Aperta control + clicar em cima do style.css para criar a pagina de edições
+
+obrigatório: usar @charset "UTF8" isso vai criar uma regra para aceitar caracteries especiais 
+
+
+
+
+CSS tags uteis obs: usar ; ponto e virgula ao final de cada declaração
+style="background-color" mudar a cor do site
+style="color" mudar a cor da linha
+style="text-aling: ;" serve para alinha o texto
+style="font-family" serve par mudar a fonte
+style="monospace" deixa tudo com a mesma espaço
+style="font-size" sempre colocar o px depois do numero

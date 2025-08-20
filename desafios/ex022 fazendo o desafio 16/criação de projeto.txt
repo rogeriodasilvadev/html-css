@@ -1,0 +1,7 @@
+criação de projeto 
+
+coisas importantes - estrutura 
+
+HTML -  READ (LINK FAVICON, LINK CSS,) - BODY ( HEADER - NAV - MAIN - ARTICLE - ASIDE - DIV - ETC ) - FOOTER ( ) 
+
+CSS- DECLARAÇÕES @ ( @charset "UTF8"; @import url(); @font-face { )- REGRAS UNIVERSAL *{} - :root para fazer atalhos de cores/fontes etc - 

@@ -1,0 +1,21 @@
+aula 11 vídeo
+para inserir um vídeo usamos a tag <video src=""> 
+para ajustar o tamanho no site usa-se width 
+para inserir os display usa-se controls e auto play
+o ideal é usar o source para utilizar vários formatos
+
+ex:
+<h1>Vamos ver um video bom</h1>
+    <p>como inserir um video no seu site</p>
+    <video src="midia/Video.mp4.mp4" width="500" controls autoplay></video>
+
+para download sites
+https://www.pexels.com/pt-br/videos/
+
+para editar 
+https://handbrake.fr/rotation.php?file=HandBrake-1.9.2-x86_64-Win_GUI.zip
+
+bônus pelo "vimeo" é o melhor jeito de mostrar seus vídeos sem gastar seu servidor
+
+"C:\Users\laura\OneDrive\Documentos\Estudos\html-css\exercicios\desafio modulo 11\imagem\fivicon.jpg"
+

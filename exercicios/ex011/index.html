@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos flexiveis</title>
+</head>
+<body>
+    <h1>Utilizando varias fotos</h1>
+    <p>fotos para direferente tamanhos de telas, para atender publicos tanto mobile tanto computer</p>
+    <picture>
+        <source media="(max-width: 650PX)" srcset="imagens\P.jpg" type="image/jpg">
+        <source media="(max-width: 850px)" srcset="imagens\M.jpg" type="image/jpg">
+        <source media="(max-width: 950px)" srcset="imagens\G.jpg" type="image/jpg">
+        <img src="imagens/G.jpg" alt="Foto G">
+    </picture>
+    <h1>Escutando musica boa</h1>
+    <p>como inserir audio no seu site</p>
+    <audio src="midia/Pais E Filhos.mp3" controls width="560"></audio>
+    <h1>Vamos ver um video bom</h1>
+    <p>como inserir um video de midia propria no seu site</p>
+    <video src="midia/Video.mp4.mp4" width="560" controls autoplay></video>
+    <p>inserindo um video de midia externa youtube</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bOaxiHldsQc?si=cizhot4ZKuAFvIy7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

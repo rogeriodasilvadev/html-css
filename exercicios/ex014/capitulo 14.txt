@@ -1,0 +1,9 @@
+capitulo 12
+Estilos inline (mesma linha)
+CSS tags uteis obs: usar ; ponto e virgula ao final de cada declaração
+style="background-color" mudar a cor do site
+style="color" mudar a cor da linha
+style="text-aling: ;" serve para alinha o texto
+style="font-family" serve par mudar a fonte
+style="monospace" deixa tudo com a mesma espaço
+style="font-size" sempre colocar o px depois do numero

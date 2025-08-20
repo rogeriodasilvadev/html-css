@@ -1,0 +1,7 @@
+tags uteis de CSS
+
+border-radius: px (serve para borda)
+padding: px (serve para arredonda a borda
+margin: auto (serve para centralizar)
+box-shadow: px px px cor (serve para fazer sombra) 
+

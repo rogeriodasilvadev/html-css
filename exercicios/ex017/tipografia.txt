@@ -1,0 +1,27 @@
+tipografia 
+tamanho de letras 
+tag font-size 
+medidas absolutas 
+cm (centímetros) mm (milímetro) in (polegadas) pt (ponto) pc (paica)
+
+medidas relativas 
+em (medida relativa M maiúsculo de uma letra) ex (medida relativa do X da letra)
+rem (medida relativa ao root do body) vw (medida relativa da view port) %
+OBS: recomendação da w3c é usar EM e PX 
+ 16px geralmente é o tamanho normal da fonte que é = a 1 EM
+
+forma para colocar as 3 configurações sem que a família de fonte não autorize
+
+font-weight (serve para mudar a largura)
+font-style (serve para colocar o estilo itálico etc)
+font- decoration (para colocar linha etc)
+font-family (serve para utilizar uma família de tipos)
+
+para usar todas sem precisar das 4 linhas podemos colocar assim na ordem 
+
+font: style - weight - size - Family 
+
+ex 
+font: italic bolder 1em times (sem virgula ou traço, obs: se a palvra tiver continuação usar aspas)
+
+

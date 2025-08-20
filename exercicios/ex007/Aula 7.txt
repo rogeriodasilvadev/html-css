@@ -1,0 +1,14 @@
+Aula 7
+Semantica das coisas 
+tag <style>body{background-color: vc escolhe a cor);</style> serve para mudar a cor do corpo do site 
+
+Aula 8 
+como colocar em negrito de forma semântica: TAG STRONG
+como colocar em negrito de forma NÃO semântica: TAG B
+
+ATALHO IMPORTANTE
+CONTROL + SHIFT + P NA FRASE ESCOLHIDA E VAI NA OPÇÃO "ENVELOPE COM ABRVIATURA" E DEPOIS DIGITE I E DE ENTER 
+
+como colocar em ITÁLICO de forma semântica: TAG EM
+como colocar em ITÁLICO de forma NÃO semântica: TAG I
+

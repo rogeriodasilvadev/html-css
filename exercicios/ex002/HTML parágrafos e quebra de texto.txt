@@ -1,0 +1,13 @@
+HTML parágrafos e quebra de texto
+&lt (less than) 
+&gt (greater than) 
+para fazer comentários sem aparecer no site faça-se <!-- -->
+BR quebrar a linha 
+
+site de emogis
+https://emojipedia.org/
+para colocar o código cru utilizar &#x1F525 o codito completo era 	U+1F525 precisa retirar o U+
+
+
+
+

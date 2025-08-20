@@ -1,0 +1,9 @@
+@charset "UTF8";
+body
+    <style>
+        h1{background-color:gray;}
+        h1{color:rgb(210, 34, 34)}
+        h2{background-color: aqua;}
+        p {text-align: justify;}
+        body{background-color: rgb(217, 201, 136);}
+    </style>

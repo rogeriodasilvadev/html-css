@@ -1,0 +1,11 @@
+Marcas (tags) HTML muito uteis 
+
+<!DOCTYPE html> (isso informa que a programação é em HTML 5)
+<hmtl lang="pt-br"> (para meu site ficar em português)
+<h1> (titulo)
+<h2> (sub titulo) (vai do H1 ate o H6)
+<p> (paragrafo)
+<hr> (cria uma linha horizontal)
+<lorem> (para cria texto aleatória de teste)
+
+obs: index.html para começar a desenvolver o arquivo, é obrigatório colocar para ficar na linguagem 

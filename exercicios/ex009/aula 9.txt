@@ -1,0 +1,23 @@
+aula 9
+listas ordenadas usar a TAG OL e depois a TAG LI conforme exemplo abaixo 
+
+bônus: ao usar o TYPE vc pode escolher qual tipo de numeração será a ordem,
+
+<h2>listas ordenadas</h2>
+    <ol type="I">
+        <li>acordar</li> 
+        <li>tomar cafe</li> 
+        <li>escovar o dente</li> 
+        <li>cagar</li> 
+        <li>mexer no celular</li>
+    </ol>
+
+listas não ordenadas
+3 Opções 
+
+<h2>listas não ordenadas</h2>
+    <ul type="CIRCLE">
+        <li>tenis</li>
+        <li>calça</li>
+        <li>camisa</li>
+    </ul>

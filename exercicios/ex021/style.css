@@ -1,0 +1,132 @@
+@charset "UTF8";
+header{
+background-color: #1f4c68 ;
+font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+color: #132332;
+font-size: larger;
+
+text-align: center;
+margin-bottom: -15px;
+margin-top: -15px;
+
+
+}
+nav > p {
+background-color:  #e1eef6;
+padding: 10px;
+text-align: center;
+text-decoration:none;
+padding-left: 10PX;
+
+
+}
+a{
+    text-decoration: none; 
+    display: inline-block;
+    
+}
+p::before{content: '»';}
+p::after{content: '«';}
+body{
+    background-color:#e1eef6;
+    color:  #132332;
+}
+main{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+padding-left: 10PX;
+text-align: justify;
+margin-bottom: -15px;
+
+}
+div{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+padding-left: 10PX;
+text-align: justify;
+margin-bottom: -15px;
+display: inline-block;
+
+}
+.item{
+border:1px #132332;
+border-radius: 8px;
+padding: 15px; 
+width: 200px;
+text-align: center;
+position: relative;
+transition: transform 0.2s;
+
+
+
+}
+.segundo{
+    text-align: center;
+    padding-top: 25px;
+}
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 180px;
+    
+    
+}
+.item ul{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 0;
+    max-height: 0;
+    overflow:hidden;
+    opacity: 1;
+    transition: all 0.3s ease;
+    
+    
+}
+.item:hover ul {
+    max-height: 500px;
+    opacity: 1px;
+    margin-top: 10px;
+    
+
+}
+.item:hover{
+    transform: scale(1.05);
+    margin-bottom: 1px;
+    
+
+    
+    
+}
+#fotos{
+    background-color: #1f4c66;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+   justify-content: center;
+   padding-bottom: 10px;
+   margin-bottom: 0px;
+    
+}
+footer{
+    background-color:  #132332;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+    margin-left: 10px;
+}
+footer > div{
+    background-color:  #132332;
+    padding-left: 10PX;
+
+}
+

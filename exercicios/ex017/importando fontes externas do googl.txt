@@ -1,0 +1,9 @@
+importando fontes externas do google
+
+importante, sempre que utilizar fontes externas, precisa colocar logo após o 
+style conforme exemplo abaixo e também colocar as indicações no font-family/font-weight e font-style se não mudar neles, não funciona
+
+<style>
+@import url......
+
+podemos achar essas fontes no google font

@@ -1,0 +1,19 @@
+aula 20
+pseudo classes
+de HTML para CSS 
+ID usamos em CSS = #
+CLASS Usamos em CSS = .
+sub class Usamos em CSS = :
+Elementos usamos em CSS = ::
+
+tags HTML 
+HTML → só estrutura e conteúdo (ex.: <div>, <p>, <a>). 
+
+tagss CSS
+CSS → aparência, estilos e interações simples, como :hover, :focus, :active.
+
+tags css de elementos 
+ex
+a::after {content: ' « ';font-size: 20px;}
+a::before {content:' » ';font-size: 20px;}
+ 

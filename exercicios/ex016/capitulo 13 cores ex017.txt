@@ -1,0 +1,22 @@
+capitulo 17 
+cores e paletas de cores
+
+site adobe color ajuda na escolha
+site palleton.com ajuda a ver uma sugestão de como fica num site
+extensão do google para pegar palete de outros sites 
+colorzila	 
+
+cores primarias / segundarias / terciarias
+cores mono cromáticas / degrade / análogo / complementar 
+
+para colocar degrade no site
+
+em head 
+style {doby backround-image: linear-gradiente(to right, COR, COR, COR); 
+obs: na frete do nome de cada cor, da pra colocar a porcentagem que vai representar no site, ]
+style {doby backround-image: linear-gradiente(to right, azul 10%, vermeelho 40%, verde 50%); 
+
+ex 
+obs: tem vários tipo de backgroud-image 
+
+Usar como regra geral *{height:100%} isso vai fazer se extender por todo site

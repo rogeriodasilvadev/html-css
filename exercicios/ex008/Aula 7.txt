@@ -1,0 +1,29 @@
+Aula 7
+Semantica das coisas 
+tag <style>body{background-color: vc escolhe a cor);</style> serve para mudar a cor do corpo do site 
+
+Aula 8 
+como colocar em negrito de forma semântica: TAG STRONG
+como colocar em negrito de forma NÃO semântica: TAG B
+
+ATALHO IMPORTANTE
+CONTROL + SHIFT + P NA FRASE ESCOLHIDA E VAI NA OPÇÃO "ENVELOPE COM ABRVIATURA" E DEPOIS DIGITE I E DE ENTER 
+
+como colocar em ITÁLICO de forma semântica: TAG EM
+como colocar em ITÁLICO de forma NÃO semântica: TAG I
+
+aula 9
+para colocar um marca texto usa-se a tag Mark 
+
+OBS: para mudar a cor, já não é mais html e sim CSS para isso usamos dentro da tag MARK os seguintes comandos
+
+<MARK style="background-color: brown;">TEXTO MARCADO</MARK>    obs que precisa da um espaço depois do mark para funcionar.
+
+OBS: seletor em massa 
+vai em head e coloca a tag que vc quer mudar em massa, da enter pra criar uma linha depois 
+abre o couchete {} entre ele coloca o que deseja
+
+ex: 
+
+
+

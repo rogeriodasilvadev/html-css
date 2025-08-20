@@ -1,0 +1,4 @@
+aula 03 colocando imagem no html 
+
+tag: img src="" alt=""  (aperta img + tab ou enter, depois entre as aspas aperta ctrl+espaço)
+da pra usar imagens da internete colocando a url e de pastas

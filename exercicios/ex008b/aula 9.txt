@@ -1,0 +1,30 @@
+aula 9
+outras formatações 
+para colocar o texto mono espaçado (todos do mesmo tamanho/espaço) usa-se o tag code
+
+para inserir uma formula em outra linguagem ex: phyton usa-se a tag code também e usa com a tag PRE para deixar com as formatações  corretas, com todas as quebras de textos 
+ex: 
+<PRE>
+        <code>
+            num = int(input('digite um número'))
+            if num % 2 == 0:
+            print(f'0 número {num} é PAR')
+            else:
+            print(f'0 número {num} é ÍMPAR)
+            print('fim do programa')
+        </code>
+    </PRE>
+
+
+para fazer citações simples usa-se a tag Q
+ou a forma não semântica so colocar "" manualmente 
+
+para fazer sitações completas usa-se a tag BLOCKQUOTE
+
+E BLOCKQOUTE CITE da pra colocar a referencia
+
+para fazer abreviações usa-se a TAG abbr vai abrir o campo pra vc colocar a explicação 
+OBS: Para dar certo precisa usar o abbr espaço e tytle
+
+
+
