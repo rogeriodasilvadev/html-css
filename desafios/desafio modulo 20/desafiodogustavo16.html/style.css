@@ -1,0 +1,102 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');/*.fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  */
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Fredericka+the+Great&display=swap');/*..edu-nsw-act-cursive-<uniquifier> {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+*/
+:root{
+--font1: "Fredericka the Great", serif;
+--font2:  Verdana, Geneva, Tahoma, sans-serif;
+--font3: "Edu NSW ACT Cursive", cursive;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+header > h1{
+    font-family: var(--font1);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+header > nav > p > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+header > nav > p > a:hover{
+    text-decoration: underline;
+}
+body{
+    
+    text-align: justify;
+    
+
+}
+section{
+    padding-left: 20px;
+    
+    
+}
+.imagem1{
+    background-image: url(background001.jpg);
+    background-position: center center;
+    background-attachment:fixed;
+
+
+}
+.imagem1 > p{
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 500px;
+    color: white;
+    
+}
+.imagem2{
+    background-image: url(background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+}
+.imagem2 > p{
+    background-color: rgba(0, 0, 0, 0.458);
+    width: 500px;
+    color: white;
+    
+
+}
+p{
+    padding: 30px;
+    font-family: var(--font3);
+    line-height: 2em;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0px;    
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
