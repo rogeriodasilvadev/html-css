@@ -1,0 +1,45 @@
+projeto 16
+:root{} serve para fazer referencias a varias tags facilitando o restante das css
+para usar basta colocar --nome do que vc quer:
+
+usando vc coloca var(----nome do que vc quer);
+
+a tag do css *{} serve para uma configuração global de todas as tags sem exceção 
+
+
+imagem não é um bloco, então para torna-la deve se usar o display block
+ai poderemos centralizar com o margin auto
+
+tornando uma imagem/vídeo responsivo 
+
+	margin: auto;
+    	display: block;
+    	width: 100%;
+margin auto para centralizar
+display block para tornar uma caixa
+width 100% para sempre manter na largura determinada, mesmo diminuindo tela
+
+
+
+box-shadow: 0px 0px 10px black;
+vertical horizontal espalhamento cor 
+
+
+configurar um hover (transições bonitas ao passar o mouse)
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: var(--cor2);
+    transition: 1s;
+    color: var(--cor4);
+
+fazer um degrade na linha 
+
+background-image: linear-gradient(to right, var(--cor2), transparent);
+
+
