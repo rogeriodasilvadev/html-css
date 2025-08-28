@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de filme</title>
+    <style>
+        table{
+            background-color: rgb(150, 123, 123);
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            padding: 10px;
+
+        }
+        tr{
+            background-color: rgb(173, 173, 128);
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>GRUPOS</th>
+                <th>NOMES</th>
+                <th colspan="3">FILMES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">mulheres</th>
+                <td>ana maria</td>
+                <td>alien</td>
+                <td>vingadores</td>
+                <td>rambo</td>
+            </tr>
+            <tr>
+                <td>raquel</td>
+                <td>hulk</td>
+                <td>aranha</td>
+                <td>cachorro</td>
+            </tr>
+            <tr>
+                <td>camila</td>
+                <td>amor</td>
+                <td>paixão</td>
+                <td>odio</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>chico</td>
+                <td>burro</td>
+                <td>vaca</td>
+                <td>girafa</td>
+            </tr>
+            <tr>
+                <td>chico</td>
+                <td>burro</td>
+                <td>vaca</td>
+                <td>girafa</td>
+            </tr>
+            <tr>
+                <td>chico</td>
+                <td>burro</td>
+                <td>vaca</td>
+                <td>girafa</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">total</th>
+                <td>12554</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
