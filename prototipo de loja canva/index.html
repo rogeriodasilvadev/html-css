@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Freitas - Moda Masculina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0631f0 0%, #1b0235 100%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4e0994;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #764ba2;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background: linear-gradient(135deg, #a8a8ac 0%, #18052b 100%);
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #764ba2;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Products Section */
+        .products {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+
+        .category {
+            margin-bottom: 4rem;
+        }
+
+        .category-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #764ba2;
+            text-align: center;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #999;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 1.5rem;
+            color: #764ba2;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .product-description {
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .buy-button {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+
+        .buy-button:hover {
+            opacity: 0.9;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #071a6e 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-btn:hover {
+            background: rgba(182, 17, 17, 0.3);
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .product-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1rem;
+            }
+            
+            .contact-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Estilo Freitas</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>MenStyle</h1>
+            <p>Moda masculina com estilo e qualidade</p>
+            <a href="#products" class="cta-button">Ver Produtos</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+
+            <!-- Camisetas -->
+            <div class="category">
+                <h3 class="category-title">Camisetas</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">👕</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Camiseta Básica Premium</h4>
+                            <p class="product-price">R$ 49,90</p>
+                            <p class="product-description">Camiseta 100% algodão, corte moderno, disponível em várias cores.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Camiseta Básica Premium - R$ 49,90')">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">👔</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Camiseta Polo Elegante</h4>
+                            <p class="product-price">R$ 79,90</p>
+                            <p class="product-description">Polo de alta qualidade, ideal para ocasiões casuais e formais.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Camiseta Polo Elegante - R$ 79,90')">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">🎽</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Regata Esportiva</h4>
+                            <p class="product-price">R$ 39,90</p>
+                            <p class="product-description">Regata respirável, perfeita para treinos e atividades físicas.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Regata Esportiva - R$ 39,90')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calças -->
+            <div class="category">
+                <h3 class="category-title">Calças</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">👖</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Jeans Slim Fit</h4>
+                            <p class="product-price">R$ 129,90</p>
+                            <p class="product-description">Calça jeans com corte moderno, tecido de alta durabilidade.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Jeans Slim Fit - R$ 129,90')">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">🩳</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Bermuda Casual</h4>
+                            <p class="product-price">R$ 69,90</p>
+                            <p class="product-description">Bermuda confortável para o dia a dia, tecido leve e resistente.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Bermuda Casual - R$ 69,90')">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">👗</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Calça Social</h4>
+                            <p class="product-price">R$ 159,90</p>
+                            <p class="product-description">Calça social elegante, ideal para trabalho e eventos formais.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Calça Social - R$ 159,90')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acessórios -->
+            <div class="category">
+                <h3 class="category-title">Acessórios</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">🧢</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Boné Snapback</h4>
+                            <p class="product-price">R$ 59,90</p>
+                            <p class="product-description">Boné moderno com ajuste snapback, várias cores disponíveis.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Boné Snapback - R$ 59,90')">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">⌚</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Relógio Casual</h4>
+                            <p class="product-price">R$ 199,90</p>
+                            <p class="product-description">Relógio elegante e resistente, perfeito para o uso diário.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Relógio Casual - R$ 199,90')">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">🕶️</div>
+                        <div class="product-info">
+                            <h4 class="product-name">Óculos de Sol</h4>
+                            <p class="product-price">R$ 89,90</p>
+                            <p class="product-description">Óculos com proteção UV, design moderno e confortável.</p>
+                            <button class="buy-button" onclick="contactWhatsApp('Óculos de Sol - R$ 89,90')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p>Tire suas dúvidas ou faça seu pedido através dos nossos canais:</p>
+            <div class="contact-buttons">
+                <a href="https://wa.me/5562991062223" class="contact-btn" target="_blank">
+                    📱 WhatsApp
+                </a>
+                <a href="https://www.instagram.com/estilofreitasmoda/" class="contact-btn" target="_blank">
+                    📸 Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MenStyle. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        function contactWhatsApp(product) {
+            const message = `Olá! Tenho interesse no produto: ${product}`;
+            const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97645e0206badb90',t:'MTc1NjM4OTk2NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
