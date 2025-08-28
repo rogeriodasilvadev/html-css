@@ -1,0 +1,51 @@
+tabelas
+
+🔹 Explicando:
+
+<table> → abre a tabela.
+
+<caption> → título/descrição da tabela.
+
+<thead> → cabeçalho (linha de títulos).
+
+<tbody> → corpo principal (os dados).
+
+<tfoot> → rodapé (totais, notas, etc).
+
+<tr> → linha da tabela.
+
+<th> → célula de cabeçalho (negrito por padrão).
+
+<td> → célula de dados comum.
+
+colspan → mescla colunas.
+
+rowspan → mescla linhas.
+
+css em tabelas 
+
+table {
+  width: 100%;                /* tabela ocupa 100% do espaço */
+  border-collapse: collapse;   /* une as bordas */
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;            /* alinhamento do texto */
+}
+
+th, td {
+  border: 1px solid #ddd;      /* borda fina */
+  padding: 10px;               /* espaço interno */
+}
+
+th {
+  background-color: #333;      /* fundo escuro */
+  color: white;                /* texto branco */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;   /* linhas pares em cinza claro */
+}
+
+tr:hover {
+  background-color: #ddd;      /* destaque ao passar o mouse */
+}
