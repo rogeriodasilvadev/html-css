@@ -1,0 +1,3 @@
+Iframe 
+para usar outras paginas no seu site, use o iframe 
+para usar paginas do seu site no iframe, use o A + endereço + target + name / o name precisa estar no iframe

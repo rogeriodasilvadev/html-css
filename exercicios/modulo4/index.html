@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudo iframe</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    iframe{
+        width: 630px;
+        height: 900px;
+        display: block;
+        margin: auto;
+        border: 1px solid black;
+    }
+    nav{
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+    }
+    </style>
 </head>
 <body>
-    <h1>testando o uso de um iframe</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum at inventore esse quia minima explicabo excepturi, vel dolore libero odio possimus, tenetur doloremque qui? Eaque iusto officiis ipsum illo!</p>
+    <header>
+        <h1>testando o uso de um iframe</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum at inventore esse quia minima explicabo excepturi, vel dolore libero odio possimus, tenetur doloremque qui? Eaque iusto officiis ipsum illo!</p>
+    </header>
+    <nav>
+        <a href="pag001.html" target="frame">pagina 01</a>
+        <a href="pag002.html" target="frame">pagina 02</a>
+        <a href="pag003.html" target="frame">pagina 03</a>
+    </nav>
     <p> 
 
-        <iframe src="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-4-de-5-40-horas/aulas/modulo-04-2/modulos/capitulo-22-aula-1-o-iframe-ainda-pode-ser-usado/" frameborder="1"></iframe>
+        <iframe src="pag002.html" frameborder="1" name="frame"></iframe>
 
         
     </p>
